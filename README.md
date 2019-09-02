@@ -3,14 +3,15 @@ Project: repurpose the old Ipad 1st Gen as a TV viewer, thanks to Tvheadend and 
 
 **Limitations of Ipad 1st Gen**
 - Ipad 1st Gen is stuck on iOS 5.1
+- Poor CPU, that makes it laggy for any modern task
 - It's a real pain to find and install suitable/available Apps for that iOS version.
 - Default Video player app is really limited in term of video codecs and formats supported
 
 **Good points of Ipad 1st Gen**
 - Ipad's SoC has hardware decoder for H264 videos *(only Quicktime can benefit from it)*
-- Quicktime player can play MPEG-TS stream encoded with H264 (video) + AAC (audio)
-- VLC is available (software decoder only, work great with MPEG2, doesn't work with H264)
-- Nice screen *(while limited resolution)*
+- Quicktime player can play MPEG-TS stream encoded with H264 (video) + AAC (audio) up to FullHD
+- a VLC version is available (software decoder only, work great with MPEG2, doesn't work with H264)
+- Nice screen *(IPS, while limited resolution 1024x768 px)*
 
 
 --> So basically it could be suitable to watch TV on Ipad1 for both TNT "SD" (MPEG2) with VLC or TNT "HD" (H264) with Quicktime internal player *(need to re-encode on-the-fly the sound from AC3 to AAC)*.
