@@ -1,13 +1,13 @@
 # ipad1-tvheadend-pi-tvhat
 Project: repurpose the old Ipad 1st Gen as a TV viewer, thanks to Tvheadend and Pi TVHAT
 
-**Limitations**
+**Limitations of Ipad 1st Gen**
 - Ipad 1st Gen is stuck on iOS 5.1
 - It's a real pain to find and install suitable/available Apps for that iOS version.
 - Default Video player app is really limited in term of video codecs and formats supported
 
-**Good points**
-- Ipad SoC has hardware decoder for H264 videos *(only Quicktime can benefit from it)*
+**Good points of Ipad 1st Gen**
+- Ipad's SoC has hardware decoder for H264 videos *(only Quicktime can benefit from it)*
 - Quicktime player can play MPEG-TS stream encoded with H264 (video) + AAC (audio)
 - VLC is available (software decoder only, work great with MPEG2, doesn't work with H264)
 - Nice screen *(while limited resolution)*
